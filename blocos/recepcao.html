@@ -1,0 +1,40 @@
+<section class="blk-rc" id="recepcao">
+  <div class="wrap blk-rc__grade">
+    <div class="blk-rc__texto">
+      <p class="blk-rc__eyebrow" data-reveal>O que as avaliações repetem</p>
+      <h2 class="blk-rc__titulo" data-reveal>A palavra que mais aparece é “recepção”</h2>
+      <p class="blk-rc__lead" data-acende>Nas avaliações do Google, antes de falar da médica, o paciente costuma falar de quem atendeu o telefone e abriu a porta. É a primeira parte da consulta, e na Genesis ela é lembrada.</p>
+      <div class="blk-rc__chips" data-reveal>
+        <span class="blk-rc__chip"><strong data-count="50">50</strong> avaliações citam a recepção</span>
+        <span class="blk-rc__chip"><strong data-count="13">13</strong> citam a equipe</span>
+        <span class="blk-rc__chip"><strong data-count="9">9</strong> citam o agendamento</span>
+      </div>
+      <ul class="blk-rc__falas">
+        <li data-reveal style="--d:0ms">“Desde a hora que marquei a consulta…”</li>
+        <li data-reveal style="--d:90ms">“Meninas da recepção foram muito queridas.”</li>
+        <li data-reveal style="--d:180ms">“A recepcionista muito atenciosa e sempre sorrindo.”</li>
+      </ul>
+    </div>
+    <figure class="blk-rc__foto" data-reveal data-parallax>
+      <!--foto:midia/recepcao.jpg|Sala de espera da Clínica Genesis, com poltronas e vidraças voltadas para a rua-->
+      <figcaption>Sala de espera, Rua 2000</figcaption>
+    </figure>
+  </div>
+</section>
+
+<style>
+.blk-rc{padding-block:var(--sp-section)}
+.blk-rc__grade{display:grid;gap:var(--sp-4);align-items:center}
+.blk-rc__eyebrow{margin:0 0 var(--sp-2);font-family:var(--f-body);font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--pulse)}
+.blk-rc__titulo{margin:0;font-family:var(--f-display);font-size:var(--t-h2);line-height:var(--lh-display);text-wrap:balance;color:var(--ink)}
+.blk-rc__lead{margin:var(--sp-2) 0 0;max-width:38rem;color:color-mix(in srgb,var(--ink) 78%,transparent)}
+.blk-rc__chips{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:var(--sp-3)}
+.blk-rc__chip{display:inline-flex;align-items:baseline;gap:.4rem;padding:.45rem .9rem;border-radius:999px;background:color-mix(in srgb,var(--brand) 8%,var(--bg));border:1px solid color-mix(in srgb,var(--brand) 18%,transparent);color:var(--ink);font-size:.95rem}
+.blk-rc__chip strong{font-family:var(--f-display);font-size:1.35rem;color:var(--brand)}
+.blk-rc__falas{list-style:none;margin:var(--sp-3) 0 0;padding:0;display:grid;gap:.6rem}
+.blk-rc__falas li{padding:.8rem 1rem;border-left:3px solid var(--pulse);background:color-mix(in srgb,var(--pulse) 7%,var(--bg));border-radius:0 var(--radius) var(--radius) 0;font-family:var(--f-display);font-size:1.1rem;color:var(--ink)}
+.blk-rc__foto{margin:0;position:relative}
+.blk-rc__foto img{display:block;width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:var(--radius)}
+.blk-rc__foto figcaption{position:absolute;left:1rem;bottom:1rem;padding:.35rem .8rem;border-radius:999px;background:color-mix(in srgb,var(--brand2) 82%,transparent);color:var(--bg);font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase}
+@media (min-width:900px){.blk-rc__grade{grid-template-columns:1.1fr .9fr;gap:var(--sp-6)}.blk-rc__foto img{max-height:620px}}
+</style>

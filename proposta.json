@@ -1,0 +1,440 @@
+{
+  "slug": "clinica-genesis",
+  "negocio": {
+    "nome": "Clínica Genesis",
+    "logo": "brand/logo-claro.png",
+    "whatsapp": "5547997086760",
+    "telefone": "(47) 3056-7161",
+    "funcionamento": {
+      "seg": "08:00-18:00",
+      "ter": "08:00-18:00",
+      "qua": "08:00-18:00",
+      "qui": "08:00-18:00",
+      "sex": "08:00-18:00",
+      "sab": null,
+      "dom": null
+    },
+    "unidades": [
+      {
+        "bairro": "Centro · Balneário Camboriú",
+        "endereco": "Rua 2000, 1273 – Centro, Balneário Camboriú – SC, 88330-468",
+        "telefone": "(47) 3056-7161 · (47) 3311-6760",
+        "horario": "Segunda a sexta, a partir das 8h"
+      }
+    ]
+  },
+  "marca": {
+    "brand": "#052A48",
+    "brand2": "#04223A",
+    "ink": "#1E2A36",
+    "bg": "#FFFFFF",
+    "pulse": "#1683CC",
+    "radius": "14px",
+    "registro": "clinico",
+    "fontDisplay": "Fira Sans",
+    "fontBody": "Source Sans 3",
+    "tomHero": "escuro",
+    "tomCorpo": "claro"
+  },
+  "secoes": [
+    {
+      "id": "header",
+      "variant": "sticky-cta",
+      "data": {
+        "links": [
+          {
+            "texto": "Especialidades",
+            "href": "#tratamentos"
+          },
+          {
+            "texto": "Equipe",
+            "href": "#equipe"
+          },
+          {
+            "texto": "Dúvidas",
+            "href": "#faq"
+          },
+          {
+            "texto": "Onde fica",
+            "href": "#unidades"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "variant": "moldura",
+      "data": {
+        "eyebrow": "Clínica médica · Balneário Camboriú",
+        "h1": "Da ginecologia à cardiologia, numa recepção só",
+        "lead": "Ginecologia e pré-natal, mastologia, cardiologia, endocrinologia, clínica geral, ortopedia, cirurgia, nutrição e psicologia, no mesmo prédio da Rua 2000, no Centro.",
+        "cta": "Agendar pelo WhatsApp",
+        "ctaSecundario": "Ver especialidades",
+        "ctaSecundarioHref": "#tratamentos",
+        "imagem": "midia/recepcao.jpg",
+        "imagemAlt": "Sala de espera da Clínica Genesis, com poltronas e vidraças voltadas para a rua",
+        "tarja": [
+          "4,6 no Google, 326 avaliações",
+          "17 profissionais no corpo clínico",
+          "Pré-natal com a mesma médica",
+          "Entrada e banheiro acessíveis"
+        ]
+      }
+    },
+    {
+      "id": "fita",
+      "variant": "inclinada",
+      "data": {
+        "itens": [
+          "Ginecologia",
+          "Obstetrícia",
+          "Mastologia",
+          "Endocrinologia",
+          "Cardiologia",
+          "Clínica geral",
+          "Ortopedia",
+          "Cirurgia plástica",
+          "Cirurgia oncológica",
+          "Nutrição",
+          "Psicologia"
+        ]
+      }
+    },
+    {
+      "id": "manifesto",
+      "variant": "pagina",
+      "data": {
+        "eyebrow": "A clínica",
+        "texto": [
+          "A Genesis junta, num endereço só, as consultas que costumam ficar espalhadas pela cidade: a ginecologista do preventivo, a mastologista, o endocrinologista, o ortopedista, a nutricionista e a psicóloga.",
+          "A recepção é a mesma para todos. Quem marca a consulta de uma especialidade já sabe como pedir a próxima, e o retorno costuma ser com o mesmo profissional."
+        ],
+        "imagem": "midia/fachada.jpg",
+        "imagemAlt": "Fachada branca da Clínica Genesis na Rua 2000, Centro de Balneário Camboriú"
+      }
+    },
+    {
+      "id": "tratamentos",
+      "variant": "cartoes",
+      "data": {
+        "titulo": "Especialidades",
+        "lead": "Consultas com hora marcada, de segunda a sexta.",
+        "itens": [
+          {
+            "nome": "Ginecologia e obstetrícia",
+            "descricao": "Consulta de rotina, preventivo e acompanhamento do pré-natal até o parto.",
+            "icone": "bebe"
+          },
+          {
+            "nome": "Mastologia",
+            "descricao": "Avaliação das mamas, rastreio e acompanhamento de alterações.",
+            "icone": "mulher"
+          },
+          {
+            "nome": "Endocrinologia e metabologia",
+            "descricao": "Tireoide, diabetes, hormônios e metabolismo.",
+            "icone": "molecula"
+          },
+          {
+            "nome": "Cardiologia",
+            "descricao": "Avaliação do coração, pressão alta e acompanhamento cardiológico.",
+            "icone": "coracao"
+          },
+          {
+            "nome": "Clínica geral",
+            "descricao": "Check-up, queixas do dia a dia e encaminhamento para o especialista certo.",
+            "icone": "estetoscopio"
+          },
+          {
+            "nome": "Ortopedia e traumatologia",
+            "descricao": "Dores em articulações, coluna, lesões e fraturas.",
+            "icone": "osso"
+          },
+          {
+            "nome": "Cirurgia plástica",
+            "descricao": "Consulta e planejamento de cirurgias plásticas.",
+            "icone": "rosto"
+          },
+          {
+            "nome": "Cirurgia oncológica",
+            "descricao": "Avaliação e acompanhamento cirúrgico em oncologia, incluindo a mama.",
+            "icone": "microscopio"
+          },
+          {
+            "nome": "Nutrição",
+            "descricao": "Plano alimentar acompanhado, sozinho ou junto com o tratamento médico.",
+            "icone": "nutricao"
+          },
+          {
+            "nome": "Psicologia",
+            "descricao": "Atendimento psicológico com três psicólogas.",
+            "icone": "cerebro"
+          }
+        ]
+      }
+    },
+    {
+      "custom": "blocos/recepcao.html"
+    },
+    {
+      "id": "numeros",
+      "variant": "vivo",
+      "data": {
+        "titulo": "A Genesis em números",
+        "itens": [
+          {
+            "valor": "4,6",
+            "rotulo": "de nota no Google"
+          },
+          {
+            "valor": "326",
+            "rotulo": "avaliações de pacientes",
+            "contar": 326
+          },
+          {
+            "valor": "11",
+            "rotulo": "áreas de atuação",
+            "contar": 11
+          },
+          {
+            "valor": "17",
+            "rotulo": "profissionais",
+            "contar": 17
+          }
+        ]
+      }
+    },
+    {
+      "id": "conversa",
+      "variant": "celular",
+      "data": {
+        "eyebrow": "Agendamento",
+        "titulo": "Marcar leva uma conversa",
+        "lead": "O WhatsApp da clínica é só para mensagens. A recepção responde, mostra os horários do profissional e confirma.",
+        "cta": "Chamar a recepção",
+        "contato": "Clínica Genesis",
+        "mensagens": [
+          {
+            "de": "paciente",
+            "texto": "Oi! Descobri que estou grávida e queria começar o pré-natal."
+          },
+          {
+            "de": "clinica",
+            "texto": "Que notícia boa, parabéns! Temos médicas que acompanham o pré-natal. Tem preferência por alguma?"
+          },
+          {
+            "de": "paciente",
+            "texto": "Uma amiga indicou a Dra. Camila."
+          },
+          {
+            "de": "clinica",
+            "texto": "Ela tem horário na terça às 14h ou na quinta às 9h. Qual fica melhor?"
+          },
+          {
+            "de": "paciente",
+            "texto": "Terça! Obrigada."
+          }
+        ]
+      }
+    },
+    {
+      "id": "passos",
+      "variant": "timeline",
+      "data": {
+        "titulo": "Como funciona",
+        "itens": [
+          {
+            "titulo": "Mande uma mensagem",
+            "texto": "Pelo WhatsApp (47) 99708-6760 ou pelos telefones fixos, de segunda a sexta.",
+            "icone": "conversa"
+          },
+          {
+            "titulo": "Escolha profissional e horário",
+            "texto": "A recepção mostra as agendas disponíveis e confirma a consulta.",
+            "icone": "agenda"
+          },
+          {
+            "titulo": "Venha à Rua 2000",
+            "texto": "No Centro, com entrada, banheiro e estacionamento acessíveis.",
+            "icone": "local"
+          }
+        ]
+      }
+    },
+    {
+      "id": "corpo-clinico",
+      "variant": "monograma",
+      "data": {
+        "titulo": "Corpo clínico",
+        "itens": [
+          {
+            "nome": "Karin Daniele Crestani Ceccato",
+            "registro": "CRM/SC 17229 · RQE 9266",
+            "especialidade": "Ginecologia e obstetrícia · responsável técnica"
+          },
+          {
+            "nome": "Daiana Domingues Scopel Araújo",
+            "registro": "CRM/SC 17292 · RQE 12548",
+            "especialidade": "Ginecologia e obstetrícia"
+          },
+          {
+            "nome": "Camila Bernardi Federle",
+            "registro": "CRM/SC 38640 · RQE 26418",
+            "especialidade": "Ginecologia"
+          },
+          {
+            "nome": "Silvia Maria Carvalho de Mattos",
+            "registro": "CRM/SC 2761 · RQE 835",
+            "especialidade": "Ginecologia"
+          },
+          {
+            "nome": "Alessandra Formigheri",
+            "registro": "CRM/SC 16907 · RQE 15172",
+            "especialidade": "Mastologia"
+          },
+          {
+            "nome": "Adriano Penha Pinto",
+            "registro": "CRM/SC 26970 · RQE 17046",
+            "especialidade": "Cardiologia"
+          },
+          {
+            "nome": "Ana Paula Kern Ely",
+            "registro": "CRM/SC 18674 · RQE 15986",
+            "especialidade": "Endocrinologia e metabologia"
+          },
+          {
+            "nome": "Luisa Rodrigues Muniz",
+            "registro": "CRM/SC 35682",
+            "especialidade": "Clínica geral"
+          },
+          {
+            "nome": "Lucas Orsini Martins",
+            "registro": "CRM/SC 33131",
+            "especialidade": "Clínica geral"
+          },
+          {
+            "nome": "Samuel Boschi",
+            "registro": "CRM/SC 12239 · RQE 5898",
+            "especialidade": "Ortopedia e traumatologia"
+          },
+          {
+            "nome": "André de Miranda Gomes",
+            "registro": "CRM/SC 8208 · RQE 5297",
+            "especialidade": "Cirurgia plástica"
+          },
+          {
+            "nome": "Hanna Jeny Schimim",
+            "registro": "CRM/SC 34740 · RQE 24198",
+            "especialidade": "Cirurgia oncológica"
+          },
+          {
+            "nome": "Bernardo Augusto Xerez Teixeira",
+            "registro": "CRM/SC 14481 · RQE 12156",
+            "especialidade": "Anestesiologia"
+          },
+          {
+            "nome": "Danieli A. Guerhardt dos Santos",
+            "registro": "CRN-08 15325",
+            "especialidade": "Nutrição"
+          },
+          {
+            "nome": "Edith Wendland",
+            "registro": "CRP/SC 18629",
+            "especialidade": "Psicologia"
+          },
+          {
+            "nome": "Miriane Aparecida Vilczek",
+            "registro": "CRP/SC 12553",
+            "especialidade": "Psicologia"
+          },
+          {
+            "nome": "Nelvia Teresinha de Oliveira",
+            "registro": "CRP/SC 23286",
+            "especialidade": "Psicologia"
+          }
+        ]
+      }
+    },
+    {
+      "id": "depoimentos",
+      "variant": "citacoes",
+      "data": {
+        "titulo": "O que os pacientes escrevem",
+        "itens": [
+          {
+            "texto": "A Dra. Camila, que é com quem faço meu pré-natal, é detalhista, tira todas as dúvidas e te deixa tranquila.",
+            "autor": "Rafaela S.",
+            "contexto": "Pré-natal · Google"
+          },
+          {
+            "texto": "As secretárias são muito educadas e gentis. A Dra. Karin transmite segurança e faz com que o paciente se sinta ouvido e respeitado.",
+            "autor": "Tatiana L.",
+            "contexto": "Ginecologia e obstetrícia · Google"
+          },
+          {
+            "texto": "Fui pela primeira vez na clínica. Desde a hora que marquei a consulta, a recepção e o atendimento da Dra. Ana Paula foram excelentes.",
+            "autor": "Solange M.",
+            "contexto": "Endocrinologia · Google"
+          }
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "variant": "colunas",
+      "data": {
+        "titulo": "Dúvidas comuns",
+        "itens": [
+          {
+            "p": "Posso ligar no WhatsApp?",
+            "r": "O número (47) 99708-6760 é só para mensagens. Para falar por telefone, use (47) 3056-7161 ou (47) 3311-6760."
+          },
+          {
+            "p": "Preciso marcar hora?",
+            "r": "Sim. As consultas são com horário marcado, para você não ficar esperando."
+          },
+          {
+            "p": "Quais as formas de pagamento?",
+            "r": "Cartão de crédito, cartão de débito e pagamento por aproximação no celular."
+          },
+          {
+            "p": "A clínica é acessível?",
+            "r": "Sim. A entrada, o banheiro e o estacionamento são acessíveis para cadeira de rodas."
+          },
+          {
+            "p": "Posso fazer o pré-natal inteiro com a mesma médica?",
+            "r": "Sim. As consultas de retorno são marcadas com a mesma profissional que acompanha você."
+          },
+          {
+            "p": "Qual o horário de atendimento?",
+            "r": "De segunda a sexta, a partir das 8h. A recepção confirma os horários de cada profissional."
+          }
+        ]
+      }
+    },
+    {
+      "id": "unidades",
+      "variant": "unica",
+      "data": {
+        "titulo": "Onde fica",
+        "imagem": "midia/fachada.jpg"
+      }
+    },
+    {
+      "id": "cta-final",
+      "variant": "bloco-cheio",
+      "data": {
+        "h2": "Qual especialidade você está procurando?",
+        "lead": "Mande uma mensagem com o nome da especialidade ou do profissional. A recepção responde com os horários livres.",
+        "cta": "Agendar pelo WhatsApp"
+      }
+    },
+    {
+      "id": "footer",
+      "variant": "completo",
+      "data": {
+        "aviso": "Responsável técnica: Dra. Karin Daniele Crestani Ceccato · CRM/SC 17229 · RQE 9266"
+      }
+    }
+  ]
+}
